@@ -9,24 +9,39 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
+<body class="body bg-success-subtle">
     <header>
         <nav id="header-nav" class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
-                <span class="navbar-brand text-white">Food , LLC</span>
+                <span class="fs-2 navbar-brand text-white">Food , LLC</span>
                 <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#menu-items" aria-controls="menu-items" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
         </nav>
-        <div class="container-fluid bg-danger collapse navbar-collapse" id="menu-items">
-            <p>Chicken</p>
-            <p>Beef</p>
-            <p>Sushi</p>
-
+        <div class="container-fluid bg-white text-black collapse" id="menu-items">
+            <p class="mb-0 text-center border-bottom border-danger">Chicken</p>
+            <p class="mb-0 text-center border-bottom border-danger">Beef</p>
+            <p class="mb-0 text-center border-bottom border-danger">Sushi</p>
         </div>
     </header>
-
+    <p class="fs-3 text-dark text-center">Our Menu</p>
+    <div class="container-fluid bg-info">
+        <div class="row">
+            <section class="col-md-3 col-sm-4 bg-dark">
+                <p class="text-center fs-4">Chicken</p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusamus autem earum et eius officia ipsum sapiente molestiae sunt, debitis dolores excepturi, numquam corporis dignissimos, illo quod quia maiores. Rem!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque est at quibusdam debitis alias. Quam, voluptates minus reprehenderit, eius, quos enim incidunt nulla sequi reiciendis ad voluptas dolores quo nihil!
+            </section>
+            <section class="col-md-3 col-sm-4 bg-dark">
+                <p class="text-center fs-4">Beef</p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus doloremque dicta tempore dignissimos aliquam eos ut est tempora molestias? Repellat eaque dicta alias totam itaque exercitationem commodi hic quam ipsa? Lorem
+                ipsum dolor, sit amet consectetur adipisicing elit. Atque est at quibusdam debitis alias. Quam, voluptates minus reprehenderit, eius, quos enim incidunt nulla sequi reiciendis ad voluptas dolores quo nihil!
+            </section>
+            <section class="col-md-3 col-sm-8 bg-dark">
+                <p class="text-center fs-4">Sushi</p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus doloremque dicta tempore dignissimos aliquam eos ut est tempora molestias? Repellat eaque dicta alias totam itaque exercitationem commodi hic quam ipsa? Lorem
+                ipsum dolor, sit amet consectetur adipisicing elit. Atque est at quibusdam debitis alias. Quam, voluptates minus reprehenderit, eius, quos enim incidunt nulla sequi reiciendis ad voluptas dolores quo nihil!
+            </section>
+        </div>
+    </div>
     <script src="../../bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
 </body>
 
